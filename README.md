@@ -46,7 +46,19 @@ python3 -m http.server 8000
 
 실행 후 브라우저에서 http://localhost:8000 을 엽니다.
 
-## 인터넷에 올리기
+## 게시된 주소
+
+https://yeonbinu.github.io (GitHub 저장소: github.com/yeonbinu/yeonbinu.github.io)
+
+수정한 내용을 사이트에 반영하려면 이 폴더에서 아래 명령을 실행합니다. 1~2분 뒤 사이트에 반영됩니다.
+
+```bash
+git add -A && git commit -m "포트폴리오 수정" && git push
+```
+
+`assets/` 원본 폴더는 `.gitignore`로 제외되어 있어 올라가지 않습니다.
+
+## 다른 곳에 올리기
 
 `assets/`, `scripts/`, `.build/`는 제외하고 아래만 올리면 됩니다 (약 26MB).
 
