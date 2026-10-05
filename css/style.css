@@ -435,8 +435,9 @@ h1, h2, h3, p { margin: 0; }
   align-items: center;
 }
 .related h3 { font-size: 19px; font-weight: 600; margin-top: 6px; }
+.related > * { min-width: 0; }
 .related .mini { display: flex; gap: 10px; }
-.related .mini img { width: 84px; height: 84px; object-fit: cover; border-radius: 4px; }
+.related .mini img { flex: 0 1 84px; min-width: 0; height: auto; aspect-ratio: 1; object-fit: cover; border-radius: 4px; }
 
 .next {
   display: block;
